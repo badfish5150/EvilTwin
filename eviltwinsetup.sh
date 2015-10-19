@@ -21,6 +21,6 @@ echo "sudo rfkill unblock wlan" >> startEvilTwin.sh
 echo "sudo ./hostapd-wpe hostapd-wpe.conf" >> startEvilTwin.sh
 
 # How to use
-echo -e "[+] DO NOT FORGET TO EDIT THE 'hostapd-wpe.conf' FILE!!!"
+echo -e "[!] DO NOT FORGET TO EDIT THE 'hostapd-wpe.conf' FILE!!!"
 echo -e "Enter the following to run the attack:"
 echo -e "    sudo bash ./startEvilTwin.sh"
